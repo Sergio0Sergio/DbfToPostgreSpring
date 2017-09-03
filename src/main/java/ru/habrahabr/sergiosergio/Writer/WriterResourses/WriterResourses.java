@@ -16,7 +16,7 @@ public class WriterResourses {
 	@Autowired
 	Buffer buffer;
 	Connection connection;
-	CopyManager copyManager = null;
+	public CopyManager copyManager = null;
 	
 	public WriterResourses() {
 		
